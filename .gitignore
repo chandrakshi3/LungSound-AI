@@ -1,0 +1,28 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+
+!data/raw/README.md
+data/processed/**
+!data/processed/.gitkeep
+data/manifests/*.csv
+artifacts/**/*.joblib
+artifacts/**/*.pt
+results/figures/*
+results/metrics/*
+
+*.flac
+
+# Trained models
+artifacts/
+*.joblib
+*.pth
+*.pt
+*.ckpt
+
+# Secrets and temporary files
+.env
+.streamlit/secrets.toml
+*.log

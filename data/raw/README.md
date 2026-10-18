@@ -1,0 +1,1 @@
+Download the ICBHI 2017 Respiratory Sound Database from https://bhichallenge.med.auth.gr/ICBHI_2017_Challenge and follow access/licensing terms. Put WAVs under data/raw/audio and matching annotation .txt files under data/raw/annotations. Each annotation row is: start time, end time, crackle label (0/1), wheeze label (0/1). Dataset is not bundled and no labels are fabricated.

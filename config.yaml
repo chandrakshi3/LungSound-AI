@@ -1,0 +1,10 @@
+audio:
+  target_sample_rate: 22050
+  n_mfcc: 20
+  n_mels: 64
+  min_duration_seconds: 0.25
+  max_duration_seconds: 120
+  max_upload_mb: 25
+model:
+  random_seed: 42
+  threshold: 0.5
